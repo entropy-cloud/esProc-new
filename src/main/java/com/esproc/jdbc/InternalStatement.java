@@ -537,10 +537,13 @@ public abstract class InternalStatement implements java.sql.Statement {
 					execThread.stop();
 				} catch (Throwable t1) {
 				}
-				try {
-					execThread.destroy();
-				} catch (Throwable t1) {
-				}
+
+				//@deleted by canonical 2022-12-31
+//				try {
+//					execThread.destroy();
+//				} catch (Throwable t1) {
+//				}
+
 			}
 			execThread = null;
 		}

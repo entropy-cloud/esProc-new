@@ -6,6 +6,7 @@
 	<groupId>com.scudata.esproc</groupId>
 	<artifactId>esproc2022</artifactId>
 	<version>20220601</version>
+
 	<packaging>jar</packaging>
 
 	<name>${project.groupId}:${project.artifactId}</name>
@@ -31,9 +32,17 @@
 
 	<properties>
 		<project.build.sourceEncoding>GBK</project.build.sourceEncoding>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+			<version>3.9.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.apache.xmlgraphics</groupId>
 			<artifactId>batik-anim</artifactId>

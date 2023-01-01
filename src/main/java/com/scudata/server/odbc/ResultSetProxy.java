@@ -1,6 +1,7 @@
 package com.scudata.server.odbc;
 
 import com.scudata.dm.*;
+import com.scudata.dm.Record;
 import com.scudata.dm.cursor.ICursor;
 import com.scudata.server.IProxy;
 

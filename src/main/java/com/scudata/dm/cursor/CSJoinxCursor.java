@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import com.scudata.common.MessageManager;
 import com.scudata.common.RQException;
 import com.scudata.dm.*;
+import com.scudata.dm.Record;
 import com.scudata.dm.op.Derive;
 import com.scudata.dm.op.DiffJoin;
 import com.scudata.dm.op.FilterJoin;

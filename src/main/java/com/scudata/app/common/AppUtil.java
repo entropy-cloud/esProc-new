@@ -26,8 +26,6 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
 
-import sun.net.util.IPAddressUtil;
-
 import com.esproc.jdbc.JDBCConsts;
 import com.scudata.cellset.datamodel.Command;
 import com.scudata.cellset.datamodel.PgmCellSet;
